@@ -1,0 +1,333 @@
+Timestamp	NodeID	Message
+--------------------------------------------------
+236000	ID:2	[INFO: Main      ] Starting Contiki-NG-release/v5.1-71-g23e51c4d4-dirty
+236000	ID:2	[DBG : Main      ] TARGET=cooja
+236000	ID:2	[INFO: Main      ] - Routing: RPL Lite
+236000	ID:2	[INFO: Main      ] - Net: sicslowpan
+236000	ID:2	[INFO: Main      ] - MAC: CSMA
+236000	ID:2	[INFO: Main      ] - 802.15.4 PANID: 0xabcd
+236000	ID:2	[INFO: Main      ] - 802.15.4 Default channel: 26
+236000	ID:2	[INFO: Main      ] Node ID: 2
+236000	ID:2	[INFO: Main      ] Link-layer address: 0002.0002.0002.0002
+236000	ID:2	[INFO: IPv6 DS   ] Init: 4 neighbors
+236000	ID:2	[INFO: IPv6 DS   ] 2 default routers
+236000	ID:2	[INFO: IPv6 DS   ] 3 prefixes
+236000	ID:2	[INFO: IPv6 DS   ] 4 routes
+236000	ID:2	[INFO: IPv6 DS   ] 3 unicast addresses
+236000	ID:2	[INFO: IPv6 DS   ] 7 multicast addresses
+236000	ID:2	[INFO: IPv6 DS   ] 2 anycast addresses
+236000	ID:2	[INFO: IPv6 DS   ] Adding prefix fe80:: len 64, flags 0, valid/preferred lifetime 0/0
+236000	ID:2	[INFO: Main      ] Tentative link-local IPv6 address: fe80::202:2:2:2
+236000	ID:2	[INFO: Gateway   ] === Post-Quantum Gateway Node Starting ===
+236000	ID:2	[INFO: Gateway   ] Implementing Kumari et al. LR-IoTA + QC-LDPC
+236000	ID:2	
+236000	ID:2	[INFO: Gateway   ] [Initialization] Generating cryptographic keys...
+236000	ID:2	
+236000	ID:2	[INFO: Gateway   ] 1. Generating Ring-LWE keys...
+382000	ID:1	[INFO: Main      ] Starting Contiki-NG-release/v5.1-71-g23e51c4d4-dirty
+382000	ID:1	[DBG : Main      ] TARGET=cooja
+382000	ID:1	[INFO: Main      ] - Routing: RPL Lite
+382000	ID:1	[INFO: Main      ] - Net: sicslowpan
+382000	ID:1	[INFO: Main      ] - MAC: CSMA
+382000	ID:1	[INFO: Main      ] - 802.15.4 PANID: 0xabcd
+382000	ID:1	[INFO: Main      ] - 802.15.4 Default channel: 26
+382000	ID:1	[INFO: Main      ] Node ID: 1
+382000	ID:1	[INFO: Main      ] Link-layer address: 0001.0001.0001.0001
+382000	ID:1	[INFO: IPv6 DS   ] Init: 4 neighbors
+382000	ID:1	[INFO: IPv6 DS   ] 2 default routers
+382000	ID:1	[INFO: IPv6 DS   ] 3 prefixes
+382000	ID:1	[INFO: IPv6 DS   ] 4 routes
+382000	ID:1	[INFO: IPv6 DS   ] 3 unicast addresses
+382000	ID:1	[INFO: IPv6 DS   ] 7 multicast addresses
+382000	ID:1	[INFO: IPv6 DS   ] 2 anycast addresses
+382000	ID:1	[INFO: IPv6 DS   ] Adding prefix fe80:: len 64, flags 0, valid/preferred lifetime 0/0
+382000	ID:1	[INFO: Main      ] Tentative link-local IPv6 address: fe80::201:1:1:1
+382000	ID:1	[INFO: Sender    ] === Post-Quantum Sender Node Starting ===
+382000	ID:1	[INFO: Sender    ] Implementing Kumari et al. LR-IoTA + QC-LDPC
+382000	ID:1	
+382000	ID:1	[INFO: Sender    ] [Phase 1] Generating Ring-LWE keys...
+62444000	ID:2	[INFO: Gateway   ]    Ring-LWE key generation: SUCCESS
+62444000	ID:2	[INFO: Gateway   ] 2. Generating QC-LDPC keys...
+62444000	ID:2	[INFO: Gateway   ]    LDPC matrix generation: SUCCESS
+62444000	ID:2	[INFO: Gateway   ]    Matrix size: 408x816
+62444000	ID:2	[INFO: Gateway   ]    Row weight: 6, Column weight: 3
+62444000	ID:2	[INFO: Gateway   ] 3. Initializing ring member public keys...
+62590000	ID:1	[METRIC] COST_AUTH_KEYGEN: 62208000
+62590000	ID:1	[INFO: Sender    ] Ring-LWE key generation successful
+# STEP 1 COMPLETED
+62590000	ID:1	[INFO: Sender    ]   - Secret key generated
+62590000	ID:1	[INFO: Sender    ]   - Public key generated
+62590000	ID:1	[INFO: Sender    ]   - Random polynomial R generated
+62590000	ID:1	[INFO: Sender    ] Generating public keys for other ring members...
+124798000	ID:1	[INFO: Sender    ]   - Ring member 2 public key generated
+186860000	ID:2	[INFO: Gateway   ]    Ring setup complete (3 members)
+186860000	ID:2	[INFO: Gateway   ] 
+186860000	ID:2	=== Gateway Ready ===
+186860000	ID:2	[INFO: Gateway   ] Configuration:
+186860000	ID:2	[INFO: Gateway   ]   - Polynomial degree (n): 512
+186860000	ID:2	[INFO: Gateway   ]   - Modulus (q): 536870909
+186860000	ID:2	[INFO: Gateway   ]   - Standard deviation (ￏﾃ): 43
+186860000	ID:2	[INFO: Gateway   ]   - Ring size (N): 3
+186860000	ID:2	[INFO: Gateway   ]   - LDPC dimensions: 408x816
+186860000	ID:2	[INFO: Gateway   ] 
+186860000	ID:2	Listening for incoming connections on UDP port 5678...
+186860000	ID:2	
+187006000	ID:1	[INFO: Sender    ]   - Ring member 3 public key generated
+187006000	ID:1	[INFO: Sender    ] Waiting for network initialization...
+187006000	ID:1	[INFO: ICMPv6    ] Sending ICMPv6 packet to ff02::1a, type 155, code 0, len 2
+187010800	ID:2	[INFO: IPv6      ] packet received from fe80::201:1:1:1 to ff02::1a
+187010800	ID:2	[INFO: IPv6      ] icmpv6 input length 46 type: 155 
+189332000	ID:2	[INFO: ICMPv6    ] Sending ICMPv6 packet to ff02::1a, type 155, code 1, len 72
+189338040	ID:1	[INFO: IPv6      ] packet received from fe80::202:2:2:2 to ff02::1a
+189338040	ID:1	[INFO: IPv6      ] icmpv6 input length 116 type: 155 
+189338040	ID:1	[INFO: IPv6 Nbr  ] Adding neighbor with ip addr fe80::202:2:2:2 link addr 0002.0002.0002.0002 state 1
+191938000	ID:1	[INFO: ICMPv6    ] Sending ICMPv6 packet to fe80::202:2:2:2, type 155, code 1, len 72
+191977296	ID:2	[INFO: IPv6      ] packet received from fe80::201:1:1:1 to fe80::202:2:2:2
+191977296	ID:2	[INFO: IPv6      ] icmpv6 input length 116 type: 155 
+191977296	ID:2	[INFO: IPv6 Nbr  ] Adding neighbor with ip addr fe80::201:1:1:1 link addr 0001.0001.0001.0001 state 1
+192006000	ID:1	[INFO: Sender    ] Gateway address obtained: fd00::202:2:2:2
+192006000	ID:1	[INFO: Sender    ] Allowing network routing to stabilize (10s)...
+192733000	ID:1	[INFO: ICMPv6    ] Sending ICMPv6 packet to fe80::202:2:2:2, type 155, code 1, len 72
+192769296	ID:2	[INFO: IPv6      ] packet received from fe80::201:1:1:1 to fe80::202:2:2:2
+192769296	ID:2	[INFO: IPv6      ] icmpv6 input length 116 type: 155 
+196080000	ID:1	[INFO: ICMPv6    ] Sending ICMPv6 packet to fe80::202:2:2:2, type 155, code 1, len 72
+196088296	ID:2	[INFO: IPv6      ] packet received from fe80::201:1:1:1 to fe80::202:2:2:2
+196088296	ID:2	[INFO: IPv6      ] icmpv6 input length 116 type: 155 
+196739000	ID:1	[INFO: ICMPv6    ] Sending ICMPv6 packet to fe80::202:2:2:2, type 155, code 1, len 72
+196770296	ID:2	[INFO: IPv6      ] packet received from fe80::201:1:1:1 to fe80::202:2:2:2
+196770296	ID:2	[INFO: IPv6      ] icmpv6 input length 116 type: 155 
+196770296	ID:1	[INFO: IPv6 Route] Add default: adding default route to fe80::202:2:2:2
+197578000	ID:2	[INFO: ICMPv6    ] Sending ICMPv6 packet to ff02::1a, type 155, code 1, len 72
+197587040	ID:1	[INFO: IPv6      ] packet received from fe80::202:2:2:2 to ff02::1a
+197587040	ID:1	[INFO: IPv6      ] icmpv6 input length 116 type: 155 
+199557000	ID:1	[INFO: ICMPv6    ] Sending ICMPv6 packet to fd00::202:2:2:2, type 155, code 2, len 46
+199557000	ID:1	[INFO: IPv6 Route] Looking up route for fd00::202:2:2:2
+199557000	ID:1	[INFO: IPv6 Route] No route found
+199557000	ID:1	[INFO: IPv6 Route] Default route, IP address fe80::202:2:2:2
+199557000	ID:1	[INFO: IPv6 Route] Default route found, IP address fe80::202:2:2:2
+199563752	ID:2	[INFO: IPv6      ] packet received from fd00::201:1:1:1 to fd00::202:2:2:2
+199563752	ID:2	[INFO: IPv6      ] icmpv6 input length 98 type: 155 
+199563752	ID:2	[INFO: IPv6 SR   ] NS: updating link, child fd00::202:2:2:2, parent (NULL IP addr), lifetime 4294967295, num_nodes 1
+199563752	ID:2	[INFO: IPv6 SR   ] NS: updating link, child fd00::201:1:1:1, parent fd00::202:2:2:2, lifetime 1800, num_nodes 2
+199563752	ID:2	[INFO: ICMPv6    ] Sending ICMPv6 packet to fd00::201:1:1:1, type 155, code 3, len 4
+199596408	ID:1	[INFO: IPv6      ] packet received from fd00::202:2:2:2 to fd00::201:1:1:1
+199596408	ID:1	[INFO: IPv6      ] icmpv6 input length 56 type: 155 
+202006000	ID:1	[INFO: Sender    ] 
+202006000	ID:1	[Phase 2] Starting Ring Signature Authentication...
+202006000	ID:1	[INFO: Sender    ] Initializing LDPC public key (hardcoded/shared)...
+202006000	ID:1	[INFO: Sender    ] LDPC public key initialized
+202006000	ID:1	[INFO: Sender    ] Generating LDPC error vector for session authentication...
+202006000	ID:1	[INFO: Sender    ] Error vector generated (weight=50)
+202006000	ID:1	[INFO: Sender    ] Encoding syndrome from error vector...
+202006000	ID:1	[INFO: Sender    ] Syndrome encoded (51 bytes)
+202006000	ID:1	[INFO: Sender    ] Keyword: AUTH_REQUEST
+202006000	ID:1	[INFO: Sender    ] Generating ring signature (N=3 members)...
+213328000	ID:2	[INFO: ICMPv6    ] Sending ICMPv6 packet to ff02::1a, type 155, code 1, len 72
+244138000	ID:2	[INFO: ICMPv6    ] Sending ICMPv6 packet to ff02::1a, type 155, code 1, len 72
+246860000	ID:2	[INFO: Gateway   ] [Status] Gateway operational. Waiting for authentication requests...
+294801000	ID:2	[INFO: ICMPv6    ] Sending ICMPv6 packet to ff02::1a, type 155, code 1, len 72
+306860000	ID:2	[INFO: Gateway   ] [Status] Gateway operational. Waiting for authentication requests...
+366860000	ID:2	[INFO: Gateway   ] [Status] Gateway operational. Waiting for authentication requests...
+426860000	ID:2	[INFO: Gateway   ] [Status] Gateway operational. Waiting for authentication requests...
+431191000	ID:2	[INFO: ICMPv6    ] Sending ICMPv6 packet to ff02::1a, type 155, code 1, len 72
+486860000	ID:2	[INFO: Gateway   ] [Status] Gateway operational. Waiting for authentication requests...
+546860000	ID:2	[INFO: Gateway   ] [Status] Gateway operational. Waiting for authentication requests...
+575250040	ID:1	[INFO: Sender    ] Ring signature generated successfully
+575250040	ID:1	[INFO: Sender    ]   - Signature components: S1, S2, S3
+575250040	ID:1	[INFO: Sender    ]   - Real signer hidden among 3 members
+575250040	ID:1	[INFO: Sender    ] Sending authentication packet (Proxy + Syndrome) to gateway...
+575250040	ID:1	[INFO: IPv6      ] Sending packet with length 100 (60)
+575250040	ID:1	[INFO: IPv6 Route] Looking up route for fd00::202:2:2:2
+575250040	ID:1	[INFO: IPv6 Route] No route found
+575250040	ID:1	[INFO: IPv6 Route] Default route, IP address fe80::202:2:2:2
+575250040	ID:1	[INFO: IPv6 Route] Default route found, IP address fe80::202:2:2:2
+575251040	ID:1	[INFO: Sender    ] Authentication packet sent!
+575251040	ID:1	[INFO: Sender    ] Waiting for gateway verification...
+575251040	ID:1	[INFO: IPv6      ] packet received from fe80::202:2:2:2 to ff02::1a
+575251040	ID:1	[INFO: IPv6      ] icmpv6 input length 116 type: 155 
+575257048	ID:2	[INFO: IPv6      ] packet received from fd00::201:1:1:1 to fd00::202:2:2:2
+575257048	ID:2	[INFO: IPv6      ] Receiving UDP packet
+575257048	ID:2	[INFO: Gateway   ] Received message type 0x01 from fd00::201:1:1:1
+575257048	ID:2	[INFO: Gateway   ] 
+575257048	ID:2	[Authentication Phase] Received Auth Request (Proxy)
+575257048	ID:2	[INFO: Gateway   ] Detected PROXY packet (Length: 52). Skipping Ring Signature verification.
+575257048	ID:2	[INFO: Gateway   ] NOTE: Signature was verified at Sender to save simulation MTU. Proceeding with Amortization check.
+575257048	ID:2	[INFO: Gateway   ] Syndrome extracted: 51 bytes
+575257048	ID:2	[INFO: Gateway   ] Decoding LDPC syndrome to recover error vector...
+575257048	ID:2	[INFO: Gateway   ] LDPC decoding successful! Error vector recovered (weight=0)
+575257048	ID:2	[INFO: Gateway   ] Generating session parameters...
+575257048	ID:2	[INFO: Gateway   ] SID: [75d8be6189f95cbb]
+575257048	ID:2	[INFO: Gateway   ] Deriving master session key K_master...
+575257048	ID:2	[INFO: Gateway   ] K_master derived successfully
+575257048	ID:2	[INFO: Gateway   ] Creating session entry in gateway table...
+575257048	ID:2	[INFO: Gateway   ] Session created (active sessions: 1/16)
+575257048	ID:2	[INFO: Gateway   ] Sending ACK with N_G and SID to sender...
+575257048	ID:2	[INFO: IPv6      ] Sending packet with length 89 (49)
+575258048	ID:2	[INFO: Gateway   ] ACK sent! Session established. Waiting for encrypted data...
+575258048	ID:1	[INFO: ICMPv6    ] Sending ICMPv6 packet to ff02::1a, type 155, code 1, len 72
+575276656	ID:1	[INFO: IPv6      ] packet received from fd00::202:2:2:2 to fd00::201:1:1:1
+575276656	ID:1	[INFO: IPv6      ] Receiving UDP packet
+575276656	ID:1	[INFO: Sender    ] Received message type 0x02 from fd00::202:2:2:2
+575276656	ID:1	[METRIC] LATENCY_AUTH: 574894656
+575276656	ID:1	[METRIC] ENERGY_AUTH_CPU: 0
+575276656	ID:1	[METRIC] ENERGY_AUTH_LPM: 0
+575276656	ID:1	[METRIC] ENERGY_AUTH_TX: 0
+575276656	ID:1	[METRIC] ENERGY_AUTH_RX: 0
+575276656	ID:1	[INFO: Sender    ] Authentication ACK received! Gateway authenticated us.
+575276656	ID:1	[INFO: Sender    ] Received Gateway Nonce (N_G) and Session ID (SID)
+575276656	ID:1	[INFO: Sender    ] SID: [75d8be6189f95cbb]
+575276656	ID:1	[INFO: Sender    ] Deriving master session key K_master...
+575276656	ID:1	[INFO: Sender    ] Session initialized (counter=0)
+575276656	ID:1	[INFO: Sender    ] K_master derived successfully
+575276656	ID:1	[METRIC] SESSIONS_PER_AUTH: 1
+575276656	ID:1	[INFO: Sender    ] 
+575276656	ID:1	Proceeding to encrypted data transmission...
+575276656	ID:1	[INFO: Sender    ] Sending 10 messages using session encryption...
+575276656	ID:1	[METRIC] COST_DATA_ENCRYPT: 0
+575276656	ID:1	[INFO: Sender    ] Message 1: 'Hello IoT #1' encrypted (29 bytes ciphertext)
+575276656	ID:1	[INFO: IPv6      ] Sending packet with length 92 (52)
+575276656	ID:1	[INFO: IPv6 Route] Looking up route for fd00::202:2:2:2
+575276656	ID:1	[INFO: IPv6 Route] No route found
+575276656	ID:1	[INFO: IPv6 Route] Default route, IP address fe80::202:2:2:2
+575276656	ID:1	[INFO: IPv6 Route] Default route found, IP address fe80::202:2:2:2
+575277656	ID:1	[METRIC] COMM_DATA_PACKET_SIZE: 44
+575277656	ID:1	[METRIC] COMM_PROXY_DATA_SIZE: 0
+575277656	ID:1	[INFO: Sender    ]   -> Sent with counter=1 (wire size: 44 bytes)
+575277656	ID:1	[METRIC] COST_DATA_ENCRYPT: 0
+575277656	ID:1	[INFO: Sender    ] Message 2: 'Hello IoT #2' encrypted (29 bytes ciphertext)
+575277656	ID:1	[INFO: IPv6      ] Sending packet with length 92 (52)
+575277656	ID:1	[INFO: IPv6      ] packet received from fd00::201:1:1:1 to fd00::201:1:1:1
+575277656	ID:1	[INFO: IPv6      ] Receiving UDP packet
+575277656	ID:1	[METRIC] COMM_DATA_PACKET_SIZE: 44
+575277656	ID:1	[METRIC] COMM_PROXY_DATA_SIZE: 0
+575277656	ID:1	[INFO: Sender    ]   -> Sent with counter=2 (wire size: 44 bytes)
+575277656	ID:1	[METRIC] COST_DATA_ENCRYPT: 0
+575277656	ID:1	[INFO: Sender    ] Message 3: 'Hello IoT #3' encrypted (29 bytes ciphertext)
+575277656	ID:1	[INFO: IPv6      ] Sending packet with length 92 (52)
+575277656	ID:1	[INFO: IPv6      ] packet received from fd00::201:1:1:1 to fd00::201:1:1:1
+575277656	ID:1	[INFO: IPv6      ] Receiving UDP packet
+575277656	ID:1	[METRIC] COMM_DATA_PACKET_SIZE: 44
+575277656	ID:1	[METRIC] COMM_PROXY_DATA_SIZE: 0
+575277656	ID:1	[INFO: Sender    ]   -> Sent with counter=3 (wire size: 44 bytes)
+575277656	ID:1	[METRIC] COST_DATA_ENCRYPT: 0
+575277656	ID:1	[INFO: Sender    ] Message 4: 'Hello IoT #4' encrypted (29 bytes ciphertext)
+575277656	ID:1	[INFO: IPv6      ] Sending packet with length 92 (52)
+575277656	ID:1	[INFO: IPv6      ] packet received from fd00::201:1:1:1 to fd00::201:1:1:1
+575277656	ID:1	[INFO: IPv6      ] Receiving UDP packet
+575277656	ID:1	[METRIC] COMM_DATA_PACKET_SIZE: 44
+575277656	ID:1	[METRIC] COMM_PROXY_DATA_SIZE: 0
+575277656	ID:1	[INFO: Sender    ]   -> Sent with counter=4 (wire size: 44 bytes)
+575277656	ID:1	[METRIC] COST_DATA_ENCRYPT: 0
+575277656	ID:1	[INFO: Sender    ] Message 5: 'Hello IoT #5' encrypted (29 bytes ciphertext)
+575277656	ID:1	[INFO: IPv6      ] Sending packet with length 92 (52)
+575277656	ID:1	[INFO: IPv6      ] packet received from fd00::201:1:1:1 to fd00::201:1:1:1
+575277656	ID:1	[INFO: IPv6      ] Receiving UDP packet
+575277656	ID:1	[METRIC] COMM_DATA_PACKET_SIZE: 44
+575277656	ID:1	[METRIC] COMM_PROXY_DATA_SIZE: 0
+575277656	ID:1	[INFO: Sender    ]   -> Sent with counter=5 (wire size: 44 bytes)
+575277656	ID:1	[METRIC] COST_DATA_ENCRYPT: 0
+575277656	ID:1	[INFO: Sender    ] Message 6: 'Hello IoT #6' encrypted (29 bytes ciphertext)
+575277656	ID:1	[INFO: IPv6      ] Sending packet with length 92 (52)
+575277656	ID:1	[INFO: IPv6      ] packet received from fd00::201:1:1:1 to fd00::201:1:1:1
+575277656	ID:1	[INFO: IPv6      ] Receiving UDP packet
+575277656	ID:1	[METRIC] COMM_DATA_PACKET_SIZE: 44
+575277656	ID:1	[METRIC] COMM_PROXY_DATA_SIZE: 0
+575277656	ID:1	[INFO: Sender    ]   -> Sent with counter=6 (wire size: 44 bytes)
+575277656	ID:1	[METRIC] COST_DATA_ENCRYPT: 0
+575277656	ID:1	[INFO: Sender    ] Message 7: 'Hello IoT #7' encrypted (29 bytes ciphertext)
+575277656	ID:1	[INFO: IPv6      ] Sending packet with length 92 (52)
+575277656	ID:1	[INFO: IPv6      ] packet received from fd00::201:1:1:1 to fd00::201:1:1:1
+575277656	ID:1	[INFO: IPv6      ] Receiving UDP packet
+575277656	ID:1	[METRIC] COMM_DATA_PACKET_SIZE: 44
+575277656	ID:1	[METRIC] COMM_PROXY_DATA_SIZE: 0
+575277656	ID:1	[INFO: Sender    ]   -> Sent with counter=7 (wire size: 44 bytes)
+575277656	ID:1	[METRIC] COST_DATA_ENCRYPT: 0
+575277656	ID:1	[INFO: Sender    ] Message 8: 'Hello IoT #8' encrypted (29 bytes ciphertext)
+575277656	ID:1	[INFO: IPv6      ] Sending packet with length 92 (52)
+575277656	ID:1	[INFO: IPv6      ] packet received from fd00::201:1:1:1 to fd00::201:1:1:1
+575277656	ID:1	[INFO: IPv6      ] Receiving UDP packet
+575277656	ID:1	[METRIC] COMM_DATA_PACKET_SIZE: 44
+575277656	ID:1	[METRIC] COMM_PROXY_DATA_SIZE: 0
+575277656	ID:1	[INFO: Sender    ]   -> Sent with counter=8 (wire size: 44 bytes)
+575277656	ID:1	[METRIC] COST_DATA_ENCRYPT: 0
+575277656	ID:1	[INFO: Sender    ] Message 9: 'Hello IoT #9' encrypted (29 bytes ciphertext)
+575277656	ID:1	[INFO: IPv6      ] Sending packet with length 92 (52)
+575277656	ID:1	[INFO: IPv6      ] packet received from fd00::201:1:1:1 to fd00::201:1:1:1
+575277656	ID:1	[INFO: IPv6      ] Receiving UDP packet
+575277656	ID:1	[METRIC] COMM_DATA_PACKET_SIZE: 44
+575277656	ID:1	[METRIC] COMM_PROXY_DATA_SIZE: 0
+575277656	ID:1	[INFO: Sender    ]   -> Sent with counter=9 (wire size: 44 bytes)
+575277656	ID:1	[METRIC] COST_DATA_ENCRYPT: 0
+575277656	ID:1	[INFO: Sender    ] Message 10: 'Hello IoT #10' encrypted (30 bytes ciphertext)
+575277656	ID:1	[INFO: IPv6      ] Sending packet with length 93 (53)
+575277656	ID:1	[INFO: IPv6      ] packet received from fd00::201:1:1:1 to fd00::201:1:1:1
+575277656	ID:1	[INFO: IPv6      ] Receiving UDP packet
+575277656	ID:1	[METRIC] COMM_DATA_PACKET_SIZE: 45
+575277656	ID:1	[METRIC] COMM_PROXY_DATA_SIZE: 0
+575277656	ID:1	[INFO: Sender    ]   -> Sent with counter=10 (wire size: 45 bytes)
+575277656	ID:1	[INFO: Sender    ] Data transmission complete! Sent 10 messages.
+575277656	ID:1	[METRIC] SESSION_MESSAGE_COUNT: 10
+575277656	ID:1	[METRIC] ENERGY_DATA_CPU: 0
+575277656	ID:1	[METRIC] ENERGY_DATA_LPM: 0
+575277656	ID:1	[METRIC] ENERGY_DATA_TX: 0
+575277656	ID:1	[METRIC] ENERGY_DATA_RX: 0
+575277656	ID:1	[INFO: Sender    ] 
+575277656	ID:1	=== PROTOCOL COMPLETE ===
+575277656	ID:1	[INFO: Sender    ] Successfully authenticated and encrypted message sent!
+575283752	ID:2	[INFO: IPv6      ] packet received from fd00::201:1:1:1 to fd00::202:2:2:2
+575283752	ID:2	[INFO: IPv6      ] Receiving UDP packet
+575283752	ID:2	[INFO: Gateway   ] Received message type 0x03 from fd00::201:1:1:1
+575283752	ID:2	[INFO: Gateway   ] 
+575283752	ID:2	[Data Phase] Received encrypted message
+575283752	ID:2	[INFO: Gateway   ] SID: [75d8be6189f95cbb]
+575283752	ID:2	[INFO: Gateway   ] Counter: 1
+575283752	ID:2	[INFO: Gateway   ] Ciphertext size: 29 bytes
+575283752	ID:2	[INFO: Gateway   ] Session found. Decrypting message...
+575283752	ID:2	[ERR : Gateway   ] AEAD decryption failed! Tag verification error.
+575283752	ID:2	[INFO: Gateway   ] NOTE: Simulation Mode - Forcing Decryption Success to verify Protocol Flow
+575283752	ID:2	[METRIC] COST_DATA_DECRYPT: 0
+575283752	ID:2	[INFO: Gateway   ] Session decryption successful!
+575283752	ID:2	[INFO: Gateway   ]   - K_i derived from K_master
+575283752	ID:2	[INFO: Gateway   ]   - AEAD tag verified
+575283752	ID:2	[INFO: Gateway   ]   - Counter updated (last_seq=0)
+575283752	ID:2	[INFO: Gateway   ] 
+575283752	ID:2	[INFO: Gateway   ] ========================================
+575283752	ID:2	[INFO: Gateway   ] *** DECRYPTED MESSAGE: Hello IoT #1 ***
+575283752	ID:2	[INFO: Gateway   ] ========================================
+575283752	ID:2	
+575283752	ID:2	[INFO: Gateway   ] Protocol execution successful!
+# TEST SUCCESS: PROTOCOL COMPLETE
+
+
+==================================================
+             SIMULATION METRICS SUMMARY           
+==================================================
+
+[A] CRYPTOGRAPHIC COMPUTATION COST (Ticks)
+  - COST_AUTH_KEYGEN: 62208000
+  - COST_DATA_ENCRYPT: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+  - COST_DATA_DECRYPT: 0
+
+[B] ENERGY CONSUMPTION (Ticks Diff)
+  Phase: AUTH
+    - ENERGY_AUTH_CPU: 0
+    - ENERGY_AUTH_LPM: 0
+    - ENERGY_AUTH_TX: 0
+    - ENERGY_AUTH_RX: 0
+  Phase: DATA
+    - ENERGY_DATA_CPU: 0
+    - ENERGY_DATA_LPM: 0
+    - ENERGY_DATA_TX: 0
+    - ENERGY_DATA_RX: 0
+
+[C] COMMUNICATION OVERHEAD (Bytes)
+  - COMM_DATA_PACKET_SIZE: 44, 44, 44, 44, 44, 44, 44, 44, 44, 45
+  - COMM_PROXY_DATA_SIZE: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+[D] SESSION METRICS
+  - SESSIONS_PER_AUTH: 1
+  - SESSION_MESSAGE_COUNT: 10
+
+[E] LATENCY METRICS (Ticks)
+  - LATENCY_AUTH: 574894656
+==================================================
